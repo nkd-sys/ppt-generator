@@ -63,7 +63,7 @@ topic = st.text_input("Enter PowerPoint Topic:")
 
 if st.button("Generate PowerPoint"):
     if topic:
-        with st.spinner("Generating slides..."):
+        with st.spinner("Generating"):
             slides_content = get_ppt_content(topic)
             
             if slides_content:
