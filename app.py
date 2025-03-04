@@ -25,7 +25,7 @@ def generate_ppt(topic, slides_content):
 
 # Function to get content from OpenRouter
 def get_ppt_content(topic):
-    prompt = f"Create a PowerPoint outline for the topic: {topic}. Provide 8 slides with titles and key points and some images or video's."
+    prompt = f"Create a PowerPoint outline for the topic: {topic}. Provide 7 slides with titles and key points and some images or video's."
     
     response = requests.post(
         OPENROUTER_URL,
